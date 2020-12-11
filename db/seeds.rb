@@ -6,52 +6,36 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Product.delete_all
-Product.create!(title: 'Docker for Rails Developers',
+Product.create!(title: 'Рубашка Time of Style',
   description:
     %{<p>
-      <em>Build, Ship, and Run Your Applications Everywhere</em>
-      Docker does for DevOps what Rails did for web development—it gives you 
-      a new set of superpowers. Gone are “works on my machine” woes and lengthy 
-      setup tasks, replaced instead by a simple, consistent, Docker-based 
-      development environment that will have your team up and running in seconds. 
-      Gain hands-on, real-world experience with a tool that’s rapidly becoming 
-      fundamental to software development. Go from zero all the way to production 
-      as Docker transforms the massive leap of deploying your app in the cloud 
-      into a baby step.
-      </p>},
-  image_url: 'ridocker.jpg',
+      Рубашка мужская прилегающего силуэта с центральной бортовой застёжкой
+      (притачная планка) на петли и пуговицы. Левая полочка с накладным карманом.
+      Спинка с отрезной двуслойной кокеткой, двумя талиевыми вытачками. Рукав втачной,
+      одношовный со шлицей, обработанной притачной обтачкой. Низ рукавов обработан притачными манжетами,
+      застёгивающимися на петлю и пуговицу. Для регулировки длины манжеты пришивается вторая пуговица.
+    </p>},
+  image_url: 'cloth1.jpg',
   price: 38.00)
 # . . .
-Product.create!(title: 'Build Chatbot Interactions',
+Product.create!(title: 'Кофта спортивная Time of Style',
   description:
     %{<p>
-      <em>Responsive, Intuitive Interfaces with Ruby</em>
-      The next step in the evolution of user interfaces is here. 
-      Chatbots let your users interact with your service in their
-      own natural language. Use free and open source tools along 
-      with Ruby to build creative, useful, and unexpected interactions 
-      for users. Take advantage of the Lita framework’s step-by-step 
-      implementation strategy to simplify bot development and testing.
-      From novices to experts, chatbots are an area in which everyone 
-      can participate. Exercise your creativity by creating chatbot 
-      skills for communicating, information, and fun.
-      </p>},
-  image_url: 'dpchat.jpg',
+      Спортивная термокофта создана для тех кто ищет не только удобство и комфорт, но также ожидает от нее функциональности и и максимальных термоактивных свойств.
+      Данная модель изготовлена из полиэстера по швейцарской технологии Clariant, волокно обогащено ионами серебра по технологии Sanitized.
+      Для безопасности спортсмена в темное время суток, на спине и груди размещены светоотражающие элементы.
+      Идеально подходит для любой формы физической активности.
+    </p>},
+  image_url: 'cloth2.jpg',
   price: 20.00)
 # . . .
 
 Product.create!(title: 'Programming Crystal',
   description:
     %{<p>
-      <em>Create High-Performance, Safe, Concurrent Apps</em>
-      Crystal is for Ruby programmers who want more performance or for 
-      developers who enjoy working in a high-level scripting environment. Crystal 
-      combines native execution speed and concurrency with Ruby-like syntax, so 
-      you will feel right at home. This book, the first available on Crystal, 
-      shows you how to write applications that have the beauty and elegance of a 
-      modern language, combined with the power of types and modern concurrency 
-      tooling. Now you can write beautiful code that runs faster, scales better, 
-      and is a breeze to deploy.
-      </p>},
-  image_url: 'crystal.jpg',
+     Стандарт сделана из хлопковой саржи с начесом. Кепка мягкая на ощупь,
+     5-ти панельная модель. Для регулировки размера используется липучка.
+     Премиум сделана из плотно хлопка. Бархатистая поверхность,– на ощупь.
+    </p>},
+  image_url: 'cloth3.jpg',
   price: 40.00)
