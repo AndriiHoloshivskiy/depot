@@ -27,9 +27,26 @@
         margin-bottom: 1em;
         box-shadow: 0.176em 0.176em 0.354em 0px rgba(0,0,0,0.75);
       }
+//
       .price {
         font-size: 1.414em;
       }
+      form, div {
+        display: inline;
+      }
+      input[type="submit"] {
+        background-color: #0ff;
+        border-radius: 0.354em;
+        border: solid thin #141;
+        color: black;
+        font-size: 1em;
+        padding: 0.354em 1em;
+      }
+      input[type="submit"]:hover {
+        background-color: #000080;
+        color: white;
+      }
     }
+//
   }
 }
